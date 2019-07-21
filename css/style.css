@@ -858,4 +858,8 @@ body {
     background-color: yellow;
     height: 375px; }
 
+#map {
+  height: 400px;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
