@@ -251,3 +251,46 @@ body {
     height: 400px;
     width: 100%;
   }
+
+  .login-page{
+    background-color: #afabab;
+  }
+  .ba-login{
+    max-width: 400px;
+    width: 100%;
+    margin: 4em auto;
+    border: 1px solid #3c4955;
+    padding: 4em 2em 3.5em;
+    border-radius: 5px;
+  }
+  .ba-form {
+    &__row{
+      margin-bottom: 0.5em;
+    }
+    label{
+      display: inline-block;
+      width: 30%;
+    }
+    input{
+      height: 30px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 0 10px;
+      &:hover, &:focus{
+        border-color: #48bf72;
+      }
+    }
+    &__submit{
+      min-width: 30%;
+      height: 30px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 0 10px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      &:hover, &:focus{
+        background-color: #48bf72;
+      }
+    }
+  }
